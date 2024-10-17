@@ -1,0 +1,3 @@
+i3|symlink|.config
+nvim|symlink|.config
+.i3status.conf|symlink|
