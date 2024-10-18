@@ -2,3 +2,5 @@ i3|symlink|.config
 picom|symlink|.config
 nvim|symlink|.config
 .i3status.conf|symlink|
+.zshrc|symlink|
+.oh-my-zsh|symlink|
