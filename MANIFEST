@@ -2,5 +2,7 @@ i3|symlink|.config
 picom|symlink|.config
 nvim|symlink|.config
 .i3status.conf|symlink|
+oh-my-zsh|symlink|.config
+zsh-custom|symlink|.config
 .zshrc|symlink|
 .wallpaper|symlink|

@@ -1,6 +1,8 @@
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.config/oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+export ZSH_CUSTOM="/home/noderyos/.config/zsh-custom"
+
+ZSH_THEME="noderyos"
 
 plugins=(git)
 
