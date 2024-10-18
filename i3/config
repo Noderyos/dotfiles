@@ -7,10 +7,9 @@ smart_gaps on
 
 font pango:monospace 10
 
-exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id setxkbmap us
-exec --no-startup-id picom -C --experimental-backends
-exec --no-startup-id feh --bg-scale /home/noderyos/Pictures/wallpaper
+exec --no-startup-id picom
+exec --no-startup-id feh --bg-scale /home/noderyos/.wallpaper
 
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
