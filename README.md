@@ -2,5 +2,5 @@
 
 Arch : 
 ```bash
-pacman -Sy feh picom dmenu
+pacman -Sy feh picom dmenu alacritty zsh nvim exa
 ```
