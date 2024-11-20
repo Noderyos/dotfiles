@@ -6,3 +6,4 @@ oh-my-zsh|symlink|.config
 zsh-custom|symlink|.config
 .zshrc|symlink|
 .wallpaper|symlink|
+rofi|symlink|.config

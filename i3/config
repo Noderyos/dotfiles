@@ -37,7 +37,8 @@ bindsym $mod+Shift+q kill
         client.focused_inactive  #16161d #16161d #c0caf5 #16161d   #16161d
         client.unfocused         #16161d #16161d #c0caf5 #16161d   #16161d
 
-bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"
+#bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"
+bindsym $mod+d exec "rofi -show drun"
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
