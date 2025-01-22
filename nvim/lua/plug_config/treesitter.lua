@@ -3,7 +3,7 @@ require('nvim-treesitter.configs').setup{
 
   ensure_installed = {'c', 'cpp', 'python', 'lua',
                       'regex', 'bash', 'comment',
-                      'make', 'json', 'vim'},
+                      'make', 'json', 'vim', 'javascript', 'typescript'},
   highlight = {
     enable = true,
   },

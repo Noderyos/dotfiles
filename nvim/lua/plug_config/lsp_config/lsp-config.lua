@@ -30,3 +30,72 @@ nvim_lsp['ccls'].setup {
     root_dir = function() return vim.loop.cwd() end
 }
 
+nvim_lsp["html"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+})
+
+nvim_lsp["tsserver"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    -- 16 gb
+    maxTsServerMemory = 8000,
+})
+
+nvim_lsp["cssls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+})
+
+nvim_lsp["tailwindcss"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = {
+        "aspnetcorerazor",
+        "astro",
+        "astro-markdown",
+        "blade",
+        "django-html",
+        "edge",
+        "eelixir",
+        "ejs",
+        "erb",
+        "eruby",
+        "gohtml",
+        "haml",
+        "handlebars",
+        "hbs",
+        "html",
+        "html-eex",
+        "heex",
+        "jade",
+        "leaf",
+        "liquid",
+        "mdx",
+        "mustache",
+        "njk",
+        "nunjucks",
+        "razor",
+        "slim",
+        "twig",
+        "css",
+        "less",
+        "postcss",
+        "sass",
+        "scss",
+        "stylus",
+        "sugarss",
+        "javascriptreact",
+        "reason",
+        "rescript",
+        "typescriptreact",
+        "vue",
+        "svelte",
+    },
+})
+
+nvim_lsp["emmet_ls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+})
