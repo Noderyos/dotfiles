@@ -1,7 +1,7 @@
 -- include treesitter and its config
 require('nvim-treesitter.configs').setup{
 
-  ensure_installed = {'c', 'cpp', 'python', 'lua',
+  ensure_installed = {'c', 'asm', 'cpp', 'python', 'lua',
                       'regex', 'bash', 'comment',
                       'make', 'json', 'vim', 'javascript', 'typescript'},
   highlight = {

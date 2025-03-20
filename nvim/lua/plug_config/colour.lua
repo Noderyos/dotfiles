@@ -57,3 +57,8 @@ require('material').setup({
 vim.cmd 'colorscheme material'
 
 vim.cmd("highlight WinSeparator guifg=#c0bfbc")
+
+vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
+vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
+vim.api.nvim_set_hl(0, 'FloatBorder', { bg = 'none' })
+vim.api.nvim_set_hl(0, 'Pmenu', { bg = 'none' })

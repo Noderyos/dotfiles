@@ -35,13 +35,6 @@ nvim_lsp["html"].setup({
     on_attach = on_attach,
 })
 
-nvim_lsp["tsserver"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach,
-    -- 16 gb
-    maxTsServerMemory = 8000,
-})
-
 nvim_lsp["cssls"].setup({
     capabilities = capabilities,
     on_attach = on_attach,
