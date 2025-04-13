@@ -11,3 +11,7 @@ source $ZSH/oh-my-zsh.sh
 alias ll='exa -lag --smart-group --git'
 alias ls='exa'
 alias grep='grep --color=auto'
+
+export PATH=/home/noderyos/.local/bin:$PATH
+export PATH=/home/noderyos/opt/bin:$PATH
+export PATH=/home/noderyos/.local/share/gem/ruby/3.3.0/bin:$PATH

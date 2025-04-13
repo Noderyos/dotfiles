@@ -29,13 +29,13 @@ floating_modifier $mod
 
 tiling_drag modifier titlebar
 
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec "/usr/local/bin/st"
 
 bindsym $mod+Shift+q kill
 
-        client.focused           #9aa5ce #364A82 #c0caf5 #9aa5ce   #9aa5ce
-        client.focused_inactive  #16161d #16161d #c0caf5 #16161d   #16161d
-        client.unfocused         #16161d #16161d #c0caf5 #16161d   #16161d
+client.focused           #a96600 #a96600 #c0caf5 #a96600   #a96600
+client.focused_inactive  #16161d #16161d #c0caf5 #16161d   #16161d
+client.unfocused         #16161d #16161d #c0caf5 #16161d   #16161d
 
 #bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"
 bindsym $mod+d exec "rofi -show drun"
@@ -102,7 +102,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you realy want to exit the test complex ?' -B 'Yes, I killed GLaDOS' 'i3-msg exit'"
 
 mode "resize" {
         bindsym Left resize shrink width 10 px or 10 ppt

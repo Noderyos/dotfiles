@@ -1,9 +1,13 @@
 i3|symlink|.config
+.i3status.conf|symlink|
+
 picom|symlink|.config
 nvim|symlink|.config
-.i3status.conf|symlink|
+rofi|symlink|.config
+
 oh-my-zsh|symlink|.config
 zsh-custom|symlink|.config
 .zshrc|symlink|
+
 .wallpaper|symlink|
-rofi|symlink|.config
+.Xresources|symlink|
