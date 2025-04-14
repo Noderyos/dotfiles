@@ -1,6 +1,10 @@
 # dotfiles
 
-Arch : 
-```bash
-pacman -Sy feh picom dmenu alacritty zsh nvim exa
-```
+- i3
+- feh
+- picom
+- rofi
+- [st](https://github.com/LukeSmithxyz/st)
+- zsh
+- nvim
+- exa
