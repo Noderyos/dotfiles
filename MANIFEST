@@ -4,6 +4,8 @@ i3|symlink|.config
 picom|symlink|.config
 nvim|symlink|.config
 rofi|symlink|.config
+polybar|symlink|.config
+fastfetch|symlink|.config
 
 oh-my-zsh|symlink|.config
 zsh-custom|symlink|.config

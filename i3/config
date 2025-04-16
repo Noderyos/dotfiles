@@ -12,7 +12,7 @@ exec --no-startup-id picom
 exec --no-startup-id feh --bg-scale /home/noderyos/.wallpaper
 
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
+exec --no-startup-id polybar
 # NetworkManager
 exec --no-startup-id nm-applet
 
@@ -33,10 +33,10 @@ bindsym $mod+Return exec "/usr/local/bin/st"
 
 bindsym $mod+Shift+q kill
 
-client.focused           #a96600 #a96600 #c0caf5 #a96600   #a96600
-client.focused_inactive  #16161d #16161d #c0caf5 #16161d   #16161d
-client.unfocused         #16161d #16161d #c0caf5 #16161d   #16161d
-
+client.focused #fcaf01 #fcaf01 #000000 #fcaf01 #fcaf01
+client.focused_inactive #a35400 #a35400 #ffffff #fcaf01 #a35400
+client.unfocused #a35400 #a35400 #ffffff #fcaf01 #a35400
+client.background #000000
 #bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"
 bindsym $mod+d exec "rofi -show drun"
 
@@ -116,7 +116,3 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-bar {
-        status_command i3status
-}

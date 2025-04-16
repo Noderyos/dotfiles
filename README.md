@@ -8,3 +8,5 @@
 - zsh
 - nvim
 - exa
+- fastfetch
+- polybar

@@ -15,3 +15,5 @@ alias grep='grep --color=auto'
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/opt/bin:$PATH
 export PATH=$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH
+
+fastfetch --config ~/.config/fastfetch/small.jsonc
