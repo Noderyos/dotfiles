@@ -30,6 +30,8 @@ nvim_lsp['ccls'].setup {
     root_dir = function() return vim.loop.cwd() end
 }
 
+nvim_lsp.serve_d.setup{}
+
 nvim_lsp["html"].setup({
     capabilities = capabilities,
     on_attach = on_attach,

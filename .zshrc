@@ -11,6 +11,7 @@ source $ZSH/oh-my-zsh.sh
 alias ll='exa -lag --smart-group --git'
 alias ls='exa'
 alias grep='grep --color=auto'
+alias cat='bat --style=plain'
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/opt/bin:$PATH

@@ -5,7 +5,7 @@ set $mod Mod4
 gaps inner 5
 smart_gaps on
 
-font pango:monospace 10
+font pango:monospace 12
 
 exec --no-startup-id setxkbmap us
 exec --no-startup-id picom
