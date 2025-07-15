@@ -1,4 +1,6 @@
 local plugins = {
+    { "Aietes/esp32.nvim" },
+    { 'maxbane/vim-asm_ca65' },
     {
         "neovim/nvim-lspconfig",
         'mfussenegger/nvim-jdtls',
@@ -36,6 +38,9 @@ local plugins = {
     {
         "anurag3301/nvim-platformio.lua",
         dependencies = {
+            { 'akinsho/toggleterm.nvim' },
+            { 'nvim-telescope/telescope.nvim' },
+            { 'nvim-telescope/telescope-ui-select.nvim' },
             { "nvim-lua/plenary.nvim" },
         },
     },
